@@ -22,3 +22,5 @@ values ('Bartolome Barrios','27888999','m','Urquiza 479',800);
 
 --4- Seleccione todos los registros.
 select*from empleados;
+
+
