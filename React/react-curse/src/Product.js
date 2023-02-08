@@ -4,4 +4,9 @@ function Product(){
     </div>
 }
 
+export function Navbar(){
+    return <div>
+        <h1>Navegación</h1>
+    </div>
+}
 export default Product

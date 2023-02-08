@@ -1,19 +1,15 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import x from "./Product";
-
+import { Greeting, UseCard } from "./Greeting";
+import Product, { Navbar } from "./Product";
+import { Button } from "./Button";
+import {TaskCard} from "./Task"
+import {FilterAlerts} from "./Alerts"
 const root = ReactDom.createRoot(document.getElementById("root"));
 
-function Greeting() {
-  return <h1>Este es un componente</h1>;
-}
-
 root.render(
-  <div>
-    {Greeting()}
-    {Greeting()}
-    {Greeting()}
-    {Greeting()}
-    {Greeting()}
-  </div>
+  <>
+  <Greeting/>
+  </>
+
 );
