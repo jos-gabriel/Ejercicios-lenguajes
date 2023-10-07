@@ -1,6 +1,3 @@
-let skills: string[] = ['Bash', 'Counter', 'Healing'];
-
-
 interface character {
     name: string;
     hp: number;
